@@ -1,0 +1,7 @@
+<div ng-repeat="section in questions.sections">
+    <h2>Section {{$index +1}} and no of questions {{section.qCount}}</h2>
+
+    <div ng-repeat="question in section.questions">
+        Q. <span ng-bind-html="question.en.value | toHtml"></span>
+    </div>
+</div>

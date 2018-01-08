@@ -1,0 +1,22 @@
+<h1> User List </h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Mobile</th>
+            <th scope="col">DOB</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="user in users">
+            <th scope="row">{{$index+1}}</th>
+            <td>{{user.name}}</td>
+            <td><span ng-bind-html="user.email | mailToLink"></span></td>
+            <td><span ng-bind-html="user.mobile | mobileToCall"></span></td>
+            <td><span title="{{user.dob | date: 'dd MMMM yyyy H:s'}}">{{user.dob | date: 'shortDate'}}</span></td>
+        </tr>
+    </tbody>
+</table>
