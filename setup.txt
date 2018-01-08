@@ -1,0 +1,19 @@
+$git clone https://github.com/webpkm/elearning.git Learning
+
+
+$git commit "Message"
+
+$git push
+
+
+$git fetch
+
+$git pull
+
+$git checkout 
+
+$git branch
+
+
+$git branch -a
+

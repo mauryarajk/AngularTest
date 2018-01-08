@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Prem Kumar",
+        "email": "premkumarmaurya1@gmail.com",
+        "mobile": "8378890642",
+        "password": "test@123",
+        "dob": "1990-10-01T16:18:33.577Z"
+    },
+    {
+        "name": "Prem Sagar",
+        "email": "sagar@gmail.com",
+        "mobile": "8378890642",
+        "password": "test@123",
+        "dob": "1994-10-01T16:18:33.577Z"
+    },
+    {
+        "name": "Prem Chandra",
+        "email": "premchandra@gmail.com",
+        "mobile": "8378890642",
+        "password": "test@123",
+        "dob": "1998-10-01T16:18:33.577Z"
+    },
+    {
+        "name": "Raj Kamal Maurya",
+        "email": "ambuj.iics@gmail.com",
+        "mobile": "8378890642",
+        "password": "test@123",
+        "dob": "1990-10-01T16:18:33.577Z"
+    },
+    {
+        "name": "Rahul Maurya",
+        "email": "rahul@gmail.com",
+        "mobile": "8378890642",
+        "password": "test@123",
+        "dob": "1995-10-05T16:18:33.577Z"
+    },
+    {
+        "name": "Rajesh Maurya",
+        "email": "rajesh@gmail.com",
+        "mobile": "8378890642",
+        "password": "test@123",
+        "dob": "1990-10-01T16:18:33.577Z"
+    }
+]
