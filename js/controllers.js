@@ -27,7 +27,14 @@ TestFramework.controller("LoginController", function ($scope, UserService, $loca
             alert("Please enter password");
             return false;
         }
-        $location.url("/home");
+        else if (user.password === 'admin' && user.username === 'admin') {
+            $location.url("/home");
+        }
+        else {
+            alert("Username or password not match");
+            return false;
+        }
+
         return true;
     }
 
@@ -59,8 +66,9 @@ TestFramework.controller("ResultController", function ($scope) {
 
 TestFramework.controller("UsersController", function ($scope, UserService) {
     $scope.users = [];
-    debugger;
-
+    $scope.search = [];
+    //$scope.search = "";
+    
     UserService.getUsers().then(function (response) {
         $scope.users = response.data;
     })
