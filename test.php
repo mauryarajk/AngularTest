@@ -9,6 +9,7 @@ $param =  array('CountryName' => 'Spain');
 $res = $client->GetCitiesByCountry($param);
 print_r($res);
 // echo $res = $client->getLeadDetails('All');
+echo 'Done';
 
 
 
