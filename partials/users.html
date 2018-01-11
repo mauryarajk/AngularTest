@@ -14,7 +14,7 @@
         <tr ng-repeat="user in users | filter:search">
             <th scope="row">{{$index+1}}</th>
             <td>{{user.name}}</td>
-            <td><span ng-bind-html="user.email | mailToLink"></span></td>
+            <td><span ng-bind-html="user.email | removeDomain"></span></td>
             <td><span ng-bind-html="user.mobile | mobileToCall"></span></td>
             <td><span title="{{user.dob | date: 'dd MMMM yyyy H:s'}}">{{user.dob | date: 'shortDate'}}</span></td>
         </tr>
